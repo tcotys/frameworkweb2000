@@ -1,0 +1,31 @@
+<?php
+  $backups = array(
+    "name"             => "Backups old",
+    "version"          => "20150716",
+    "description"      => "Old backups manager",
+    "menu"             => "Backups",
+    "menu_type"        => "text",
+    "section_id"       => "backups_article",
+    "section_id_type"  => "text",
+    "list"             => "backups/menu.php",
+    "list_type"        => "file",
+    "forms"            => "backups/forms.php",
+    "forms_type"       => "file",
+    "buttons"          => "",
+    "buttons_type"     => "none",
+    "global_load"      => "",
+    "global_load_type" => "none",
+    "html_load"        => "",
+    "html_load_type"   => "none",
+    "css_load"         => "",
+    "css_load_type"    => "none",
+    "js_load"          => "",
+    "js_load_type"     => "none",
+    "files_dir"        => "",
+    "files_dir_type"   => "none",
+    "db_name"          => "",
+    "db_name_type"     => "none",
+    "db_create"        => "",
+    "db_create_type"   => "none");
+  array_push($PluginsInfo, $backups); 
+?>

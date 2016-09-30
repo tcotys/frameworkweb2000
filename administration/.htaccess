@@ -1,0 +1,12 @@
+# Restericetd area info and params 
+AuthType Basic
+AuthName "Restricted Access"
+AuthUserFile /home/tyrasonoqs/eristic/administration/.htpasswd
+Require user EristicFuel
+# Change max file size for upload... not working
+#php_value upload_max_filesize 20M
+#php_value post_max_size 20M
+#php_value max_execution_time 200
+#php_value max_input_time 200
+
+

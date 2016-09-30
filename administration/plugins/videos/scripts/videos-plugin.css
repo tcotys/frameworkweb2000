@@ -1,0 +1,16 @@
+.videos_plugin {
+  background-position:center;
+  background-repeat:no-repeat;
+  position: relative;
+}
+.videos_plugin img {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.videos_plugin:hover img {
+  opacity:0.8;
+}

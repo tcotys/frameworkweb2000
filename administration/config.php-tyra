@@ -1,0 +1,23 @@
+<?php
+  function getSiteName() {
+    return 'Eristic Fuel';
+  }
+  function getWebsitePath() {
+    return '../';
+  }
+  function getTablePrefix() {
+    return 'eristicfuel_';
+  }
+  function getDBhost() {
+    return 'tyrasonoqs_db.mysql.db';
+  }
+  function getDBname() {
+    return 'tyrasonoqs_db';
+  }
+  function getDBusername() {
+    return 'tyrasonoqs_db';
+  }
+  function getDBpassword() {
+    return 'SgRyb6H9HuCA';
+  }
+?>
