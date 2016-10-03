@@ -1,12 +1,12 @@
 <?php
   function getSiteName() {
-    return 'Eristic Fuel';
+    return 'My website';
   }
   function getWebsitePath() {
     return '../';
   }
   function getTablePrefix() {
-    return 'eristicfuel_';
+    return 'website_';
   }
   function getDBhost() {
     return 'localhost';
@@ -18,6 +18,6 @@
     return 'root';
   }
   function getDBpassword() {
-    return 'pipicaca';
+    return '';
   }
 ?>
