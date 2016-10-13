@@ -6,7 +6,7 @@
     return '../';
   }
   function getTablePrefix() {
-    return 'eristicfuel_';
+    return 'my_website_';
   }
   function getDBhost() {
     return 'localhost';
@@ -18,6 +18,6 @@
     return 'root';
   }
   function getDBpassword() {
-    return 'pipicaca';
+    return '';
   }
 ?>
